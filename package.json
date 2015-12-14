@@ -1,0 +1,25 @@
+{
+  "name": "nightwatch-salesforce-wrapper",
+  "version": "0.0.2",
+  "description": "Small library to make e2e tests for salesforce using nightwatchjs.",
+  "main": "salesforce_wrapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloxure/nightwatch-salesforce-wrapper.git"
+  },
+  "keywords": [
+    "Salesforce",
+    "Nightwatchjs",
+    "E2E",
+    "tests"
+  ],
+  "author": "Cloxure",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloxure/nightwatch-salesforce-wrapper/issues"
+  },
+  "homepage": "https://github.com/cloxure/nightwatch-salesforce-wrapper#readme"
+}
