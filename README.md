@@ -19,15 +19,14 @@ npm i nightwatch-salesforce-wrapper
 
   SFWx.setBrowser(browser).setDefaultTimeout(10000)
       .useID().linkInside('AllTab_Tab').click()
-      .link("ALLNASP IDs").click()
+      .link("some link").click()
       .useValue().input("New").click()
-      .multipicklist("NASP ID Excluded from Campaigns").set("Hospitality - RFP in progress, Hospitality - Do Not Invite (Policy)")
-      .multipicklist_unselect("NASP ID Excluded from Campaigns").set("Hospitality - RFP in progress")
-      .text("NASP ID").set("10 XXZZ")
-      .name("NASP ID").set("10 XXZZ")
-      .text("NASP Account Name").set("eco1")
-      .picklist("Auth Code Request Issued").set("Yes")
-      .checkbox("Latam Focus").set(true);
+      .multipicklist("some multipicklist").set("item 1 - item 2")
+      .multipicklist_unselect("some multipicklist").set("item 1")
+      .text("some text").set("XXZZ")
+      .name("some name").set("XXZZ")
+      .picklist("some picklist").set("eco1")
+      .checkbox("some checkbox").set(true);
 
   browser.pause(1000);
 ```
