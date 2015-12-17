@@ -16,7 +16,7 @@ npm i nightwatch-salesforce-wrapper
 ###Initialization
 
 ```
-var SFW =  require('../../libs/salesforce_wrapper.js');
+var SFW =  require('salesforce_wrapper');
 var SFWx = new SFW();
 ```
 
