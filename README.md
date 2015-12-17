@@ -50,6 +50,11 @@ SFWx.checkbox("some checkbox field").set(true);
 
 
 
+
+
+
+
+
 ##Get values
 
 ####Text
@@ -73,6 +78,12 @@ SFWx.picklist("some picklist field").get(function(res){
   console.log("some picklist field -> " + res);
 });
 ```
+
+
+
+
+
+
 
 
 ##TODO
