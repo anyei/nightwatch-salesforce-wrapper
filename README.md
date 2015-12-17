@@ -53,22 +53,27 @@ SFWx.checkbox("some checkbox field").set(true);
 ##Get values
 
 ####Text
+```
 SFWx.text("some text field").get(function(res){
   console.log("some text field value -> " + res);
 });
-
+```
 
 ####Name
+```
 SFWx.name("some field name").get(function(res){
   console.log("some field name value -> " + res);
 });
-
+```
 
 ####picklist
+```
 SFWx.picklist("some picklist field").get(function(res){
   //this will give you the current selected value on the picklist.
   console.log("some picklist field -> " + res);
 });
+```
+
 
 ##TODO
 * Inline form edit
