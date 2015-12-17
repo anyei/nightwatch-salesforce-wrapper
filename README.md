@@ -13,23 +13,37 @@ npm i nightwatch-salesforce-wrapper
 
 ##Usage
 
-```
-  var SFW =  require('../../libs/salesforce_wrapper.js');
-  var SFWx = new SFW();
+###Initialization
 
-  SFWx.setBrowser(browser).setDefaultTimeout(10000)
-      .useID().linkInside('AllTab_Tab').click()
-      .link("some link").click()
-      .useValue().input("New").click()
-      .multipicklist("some multipicklist").set("item 1 - item 2")
-      .multipicklist_unselect("some multipicklist").set("item 1")
-      .text("some text").set("XXZZ")
-      .name("some name").set("XXZZ")
-      .picklist("some picklist").set("eco1")
-      .checkbox("some checkbox").set(true);
-
-  browser.pause(1000);
 ```
+var SFW =  require('../../libs/salesforce_wrapper.js');
+var SFWx = new SFW();
+```
+
+###Set specific values
+
+####Text
+```
+SFWx.text("some text field").set("value1");
+```
+where "eco" is the name of the field and "abc" is the value you want to set.
+
+####Name
+```
+SFWx.name("some name field").set("value1");
+```
+
+####Picklist
+```
+SFWx.picklist("some picklist field").set("value1");
+```
+
+###multipicklist
+```
+SFWx.multipicklist("some multipicklist field").set("value1, value2");
+```
+
+
 
 ##TODO
 * Inline form edit
