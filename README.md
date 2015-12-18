@@ -163,11 +163,11 @@ SFWx.link("some link").click() ;
 
 browser.pause(2000); //nightwathc's browser variable
 
-SFWx.text("some text field label1").set("value 1")
-    .text("some text field label2").set(value 2")
-    .picklist("some pikclist field label1").set("value 1")
-    .multipicklist("some multipicklist field label1").set("value 1, value2")
-    .button("save").click();
+SFWx.text('some text field label1').set('value 1')
+    .text('some text field label2').set('value 2')
+    .picklist('some pikclist field label1').set('value 1')
+    .multipicklist('some multipicklist field label1').set('value 1, value2')
+    .button('save').click();
     
 browser.pause(2000);
 
