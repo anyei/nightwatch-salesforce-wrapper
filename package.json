@@ -1,6 +1,6 @@
 {
   "name": "nightwatch-salesforce-wrapper",
-  "version": "0.0.5",
+  "version": "0.0.12",
   "description": "Small library to make e2e tests for salesforce using nightwatchjs.",
   "main": "salesforce_wrapper.js",
   "scripts": {
