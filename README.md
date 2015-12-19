@@ -113,11 +113,11 @@ setBrowser(browser);
 
 Forces SFW to use and specific HTML ID instead of the field's label or element's label.
 ```javascript
-useID("element's ID");
+useID();
 ```
 example:
 ```javascript
-SFWx.useID('element id').click();
+SFWx.useID().link('element id').click();
 ```
 
 ####useValue()
